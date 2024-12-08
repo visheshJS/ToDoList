@@ -12,20 +12,22 @@
 }
 
 body {
-    /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    background: linear-gradient(to right, #686565, #f7b582);
+    /* background-color: #222; */
     display: flex;
     justify-content: center;
-    background-color: black;
 
 }
 
+
 .box {
     margin: 100px auto 20px;
-    padding: 40px 35px 70px;
+    padding: 47px 23px 70px;
     max-width: 1070px;
-    width: 40%;
+    width: 60%;
     background-color: white;
     border-radius: 20px;
+    transition: width 0.4s ease; /* Smooth width transition */
     
 
 
@@ -71,11 +73,11 @@ button{
 }
 
 ul li{
-    flex-direction: column;
+    /* flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     word-wrap: break-word;
-    overflow-wrap: break-word;
+    /* overflow-wrap: break-word; */
     list-style:none;
     font-size: 15px;
     padding: 12px 8px 12px 50px;
@@ -124,43 +126,37 @@ ul li span:hover{
     background-color: #edeef0;
 }
 
-@media(max-width:886px) {
-    .add{
-        flex-direction: column;
-    }
-    .add input{
-        flex-shrink: 3;
-        padding: 30px;
-        text-align: center;
-    }
-    .add button{
-        text-align: center;
-        border-radius: 33%;
-        padding: 18px 16px 7px 15px;
-        font-size: 9px;
-        /* flex-shrink: 2; */
-        margin-left: -10px;
-        align-items: center;
-    }
 
-    
-
+@media (max-width: 768px) {
+    .box {
+        width: 60%; /* Increase the width for medium screens */
+    }
 }
 @media (max-width: 600px) {
-    ul li {
-        flex-direction: column; /* Stack the task and delete button */
-        align-items: flex-start; /* Align text to the left */
+    .box {
+        width: 75%; /* Increase the width for medium screens */
     }
-
-    ul li span {
-        margin-left: auto; /* Push delete button to the right */
-        margin-top: 10px; /* Add space above the button */
+    
+}
+@media (max-width: 550px) {
+    .box {
+        width: 82%; /* Make it almost full-width for smaller screens */
     }
 }
+
 @media(max-width:486px){
-    .add input{
+    /* .add input{
         text-align: center;
         font-size: 10px;
+
+    } */
+    .box{
+        flex-grow: 1.5;
+    }
+}
+@media (max-width: 480px) {
+    .box {
+        width: 90%; /* Make it almost full-width for smaller screens */
     }
 }
 @media(max-width:460px){
@@ -169,20 +165,20 @@ ul li span:hover{
         font-size: 10px;
     }
 
-    .head img{
+    /* .head img{
         width: 30px;
         height: 50px;
         margin-top: 24px;
         margin-left: 22px;
 
-    }
+    } */
 }
 
 @media(max-width:408px){
-    .add input{
+    /* .add input{
         text-align: center;
         font-size: 8px;
-    }
+    } */
 }
 
 
