@@ -1,4 +1,4 @@
-# ToDo List Web App
+# [ToDo List Web App](https://visheshjs.github.io/ToDoList/)
 
 A simple, responsive ToDo list web application built with **HTML**, **CSS**, and **JavaScript**. This project allows users to **add**, **mark**, and **delete** tasks in an interactive interface, providing an efficient way to manage daily tasks.
 
@@ -12,7 +12,3 @@ A simple, responsive ToDo list web application built with **HTML**, **CSS**, and
 - 💻 **HTML**
 - 🎨 **CSS**
 - 🔧 **JavaScript**
-
-## Live Demo
-[**View Project**](https://visheshjs.github.io/ToDoList/)
-
