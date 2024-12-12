@@ -12,3 +12,6 @@ A simple, responsive ToDo list web application built with **HTML**, **CSS**, and
 - 💻 **HTML**
 - 🎨 **CSS**
 - 🔧 **JavaScript**
+
+## Disclaimer
+This To-Do List App is created **for educational purposes** only. It helps users manage their tasks but does not collect or store any personal data. The app is a simple demonstration of **basic web development techniques** and is not meant for commercial use.
