@@ -1,4 +1,4 @@
-# [ToDo List Web App](https://visheshjs.github.io/ToDoList/)
+# [ToDo List Web App](https://todolist-visheshjs.netlify.app/)
 
 A simple, responsive ToDo list web application built with **HTML**, **CSS**, and **JavaScript**. This project allows users to **add**, **mark**, and **delete** tasks in an interactive interface, providing an efficient way to manage daily tasks.
 
